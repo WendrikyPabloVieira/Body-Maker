@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	max-width: 1280px;
+	margin: 0 auto;
+	background-color: #ffffffad;
+	color: #333333;
+	background-image: url(images/backgroud.png);
+}
+
+header {
+	justify-content: space-between;
+}
+
+.logo {
+	text-decoration: none;
+	width: 75px;
+	transition: 0.2s ease-in-out;
+}
+
+.botao-unidades,
+.botao-horarios,
+.botao-parceiros {
+	text-decoration: none;
+	background-color: #d8e3ec;
+	border: none;
+	width: 85px;
+	text-align: center;
+	border-radius: 15px;
+	padding: 15px;
+	transition: 0.2s ease-in-out;
+	color: #333333;
+}
+
+.logo:hover {
+	transform: scale(1.05);
+}
+
+.botao-horarios:hover,
+.botao-parceiros:hover,
+.botao-unidades:hover,
+.cartao-plano:hover {
+	transform: scale(1.05);
+	background-color: #96d9d6;
+}
+
+#matricula {
+	position: relative;
+	left: 37%;
+	top: 29%;
+	width: 320px;
+	height: 270px;
+}
+
+#matricula,
+#formulario {
+	position: absolute;
+	display: block;
+}
+
+fieldset {
+	width: 400px;
+	height: 120px;
+	border-radius: 15px;
+	background-color: #d8e3ec
+}
+
+#formulario label {
+	position: absolute;
+	left: 19px;
+	margin-right: 5px;
+}
+
+#formulario .escolha{
+	position: absolute;
+	left: 19px;
+	margin-top: 20px;
+}
+
+#formulario input.campo-nome {
+	position: absolute;
+	left: 100px;
+	margin-top: 2px;
+	width: 225px;
+}
+
+#formulario input.campo-numero {
+	position: absolute;
+	left: 100px;
+	margin-top: px;
+	width: 225px;
+}
+
+#formulario .unidades {
+	position: absolute;
+	left: 175px;
+	margin-top: 20px;
+	width: 225px;
+}
+
+#formulario .planos {
+	position: absolute;
+	left: 175px;
+	margin-top: 2px;
+	width: 225px;
+}
+
+#formulario input.btn_submit
+{
+  border-style:outset;
+  position:absolute;
+  bottom: 0.5em;
+  right:10px;
+  background-color:#96d9d6;
+}

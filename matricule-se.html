@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Maker</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="src/css/matricule-se.css">
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="index.html">
+            <img src="images/logo.png" alt="logo" class="logo" /></a>
+        <a class="botao-unidades" href="unidades.html">Unidades</a>
+        <a class="botao-parceiros" href="parceiros.html">Parceiros</a>
+        <a class="botao-horarios" href="horarios.html">Horarios</a>
+    </header>
+    <main>
+        <div id="matricula">
+            <form id="formulario" autocomplete="off">
+                <fieldset>
+                    <p><em> Formulario para matricula</em></p>
+                    <label>Nome:</label><input class="campo-nome" type="text"><br>
+                    <label>Whatsapp:</label><input class="campo-numero" type="tel"><br>
+                    <span class="escolha">Escolha sua unidade:</span>
+                    <select class="unidades"><br>
+                        <option selected disable value="">Selecione</option>
+                        <option class="campo-unidades">Rio Bonito</option>
+                        <option class="campo-unidades">Cidade Industrial</option>
+                        <option class="campo-unidades">Capão Raso</option>
+                    </select>
+                    <label >Escolha seu plano:</label>
+                    <select class="planos">    
+                        <option selected disable value="">Selecione</option>
+                        <option class="campo-planos">Plano 1</option>
+                        <option class="campo-planos">Plano 2</option>
+                        <option class="campo-planos">Plano 3</option>
+                    </select>
+                    <input class="btn_submit" type="submit" value="Enviar">
+
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
