@@ -44,7 +44,7 @@ header {
 .botao-parceiros:hover,
 .botao-unidades:hover,
 .cartao-plano:hover{
-	transform: scale(1.05);
+	transform: scale(1.03);
 	background-color: #96d9d6;
 }
 
